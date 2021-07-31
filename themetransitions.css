@@ -1,0 +1,15 @@
+body {
+    transition: all 0.20s ease-out;
+}
+
+#miami-theme {
+    transition: all 0.20s ease-out;
+}
+
+#olivia-theme {
+    transition: all 0.20s ease-out;
+}
+
+.samuraihover {
+    transition: 0.3s;
+}
