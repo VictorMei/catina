@@ -1,7 +1,3 @@
-document.getElementsByClassName("miami").onmouseover = function(){
-    document.getElementById("word").style.color = '#e2dad0';
-}
-
 document.getElementById("miami-theme").onclick = function(){
     document.getElementById("word").removeAttribute("class")
     document.getElementById("word2").removeAttribute("class")

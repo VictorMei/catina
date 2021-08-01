@@ -36,7 +36,7 @@ window.onload = function () {
         document.getElementById("word2").classList.add(wordClass);
     }
     var catinaClass = getCookie('catinaClass');
-    if (wordClass !== '') {
+    if (catinaClass !== '') {
         document.getElementById("catina").removeAttribute("class")
 
         document.getElementById("catina").classList.add(catinaClass);
