@@ -21,11 +21,26 @@ var getCookie = function (n) {
 
 
 window.onload = function () {
-    var favColor = document.body.style.backgroundColor;
-    var color = getCookie('bgcolor');
-    if (color === '') {
-        document.body.style.backgroundColor = favColor;
-    } else {
-      document.body.style.backgroundColor = color;
+    var bodyClass = getCookie('bodyClass');
+    if (bodyClass !== '') {
+        document.body.removeAttribute("class");
+
+        document.body.classList.add(bodyClass);
+    } 
+    var wordClass = getCookie('wordClass');
+    if (wordClass !== '') {
+        document.getElementById("word").removeAttribute("class")
+        document.getElementById("word2").removeAttribute("class")
+
+        document.getElementById("word").classList.add(wordClass);
+        document.getElementById("word2").classList.add(wordClass);
     }
+    var catinaClass = getCookie('catinaClass');
+    if (wordClass !== '') {
+        document.getElementById("catina").removeAttribute("class")
+
+        document.getElementById("catina").classList.add(catinaClass);
+    }
+
+    
 };
