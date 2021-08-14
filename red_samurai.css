@@ -129,6 +129,18 @@ nav>ul>li a {
 .miami {
     background-color: #f35588;
 }
+.miamigallery {
+    color: #94294c;
+}
+.oliviagallery {
+    color: #4e3e3e;
+}
+.samuraigallery {
+    color: #55131b;
+}
+.nightsgallery {
+    color: #47bac0;
+}
 .miamihover {
     color: #94294c;
     transition: 0.3s;
@@ -184,3 +196,5 @@ nav>ul>li a {
 .nightscatina {
     color: #e4609b;
 }
+
+

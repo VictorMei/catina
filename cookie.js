@@ -41,6 +41,21 @@ window.onload = function () {
 
         document.getElementById("catina").classList.add(catinaClass);
     }
+    var galleryClass = getCookie('galleryClass');
+    if (galleryClass !== '') {
+        document.getElementById("gallery").removeAttribute("class")
+
+        document.getElementById("gallery").classList.add(galleryClass);
+    }
+    var borderClass = getCookie('borderClass');
+    if (borderClass !== '') {
+        document.getElementById("border").classList.remove(miamiborder);
+        document.getElementById("border").classList.remove(oliviaborder);
+        document.getElementById("border").classList.remove(samuraiborder);
+        document.getElementById("border").classList.remove(nightsborder);
+
+        document.getElementById("border").classList.add(borderClass);
+    }
 
     
 };

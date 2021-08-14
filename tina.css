@@ -1,0 +1,14 @@
+h3 {
+    
+    margin-left: 160px;
+    
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 6px;
+    border:6px solid rgb(82, 0, 20);
+    border-radius: 20px;
+    
+}

@@ -12,6 +12,8 @@ document.getElementById("miami-theme").onclick = function(){
     setCookie("bodyClass", "miami");
     setCookie("wordClass", "miamihover");
     setCookie("catinaClass", "miamicatina");
+    setCookie("galleryClass", "miamigallery");
+    setCookie("borderClass", "miamiborder");
 
 }
 
@@ -29,6 +31,8 @@ document.getElementById("olivia-theme").onclick = function(){
     setCookie("bodyClass", "olivia");
     setCookie("wordClass", "oliviahover");
     setCookie("catinaClass", "oliviacatina");
+    setCookie("galleryClass", "oliviagallery");
+    setCookie("borderClass", "oliviaborder");
 
 }
 
@@ -46,6 +50,8 @@ document.getElementById("samurai-theme").onclick = function(){
     setCookie("bodyClass", "samurai");
     setCookie("wordClass", "samuraihover");
     setCookie("catinaClass", "samuraicatina");
+    setCookie("galleryClass", "samuraigallery");
+    setCookie("borderClass", "samuraiborder");
 }
 
 document.getElementById("miaminights-theme").onclick = function(){
@@ -62,6 +68,8 @@ document.getElementById("miaminights-theme").onclick = function(){
     setCookie("bodyClass", "nights");
     setCookie("wordClass", "nightshover");
     setCookie("catinaClass", "nightscatina");
+    setCookie("galleryClass", "nightsgallery");
+    setCookie("borderClass", "nightsborder");
 }
 
 
